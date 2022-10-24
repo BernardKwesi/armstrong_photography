@@ -326,7 +326,7 @@ $(function() {
     });
 	
     // 13. item photos
-    var urlPhotos = 'img/works/';
+    var urlPhotos = 'images/';
     $('.photo').each(function(key, value) {
         $(this).css('background-image', 'url(' + urlPhotos + $(this).data('photo-src') + ')').fadeIn("slow");
     });
